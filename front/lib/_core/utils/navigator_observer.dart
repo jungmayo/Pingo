@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:pingo_front/_core/utils/logger.dart';
 
 // 전역관리 안할 시 각 페이지에서 수동으로 등록해주어야함
+// PageRoute -> 전체 페이지 추적
 class RouteObserverService extends RouteObserver<PageRoute<dynamic>> {
   RouteObserverService._observer(); // 생성자
 
